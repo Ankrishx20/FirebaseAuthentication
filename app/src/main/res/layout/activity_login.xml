@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark"
+    android:padding="35dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="0.57"
+            app:srcCompat="@drawable/anonymous_mask1600" />
+
+        <TextView
+            android:id="@+id/textview3"
+            style="@style/textView_style"
+            android:layout_margin="5dp"
+            android:layout_marginTop="56dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Login"
+            android:textAllCaps="true"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/login_email"
+            style="@style/editText_style"
+            android:hint="Username"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/login_password"
+            style="@style/editText_style"
+            android:hint="••••••••"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/login"
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log In" />
+
+        <TextView
+            android:id="@+id/signup"
+            style="@style/textView_style"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Not have an account?"
+            android:textAllCaps="false"
+            android:textSize="15dp" />
+    </LinearLayout>
+</RelativeLayout>

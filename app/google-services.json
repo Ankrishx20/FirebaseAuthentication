@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "773403572052",
+    "firebase_url": "https://fir-authentication-f5131.firebaseio.com",
+    "project_id": "fir-authentication-f5131",
+    "storage_bucket": "fir-authentication-f5131.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773403572052:android:b8ef717776d86a1c",
+        "android_client_info": {
+          "package_name": "com.ankrish.firebaseauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773403572052-949pstp8mkdqlns3clbn7jlf0p5j828s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYN9lJHnkTFYB7zndjSLa39Ueyw_Q0bCY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
